@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home Page</title>
+  </head>
+  <style>
+    /* background*/
+    body {
+      margin: 0;
+      font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #919aa1;
+      text-align: left;
+      background-color: #fff;
+    }
+    /* header text style*/
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+    /*paragraph text style*/
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      text-align: left;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <!--Navigation bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <!--tab Home-->
+            <li class="nav-item active">
+              <a class="nav-link" href="Weather_dashboard.html"> <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <!--tab 1-->
+            <li class="nav-item">
+              <a class="nav-link" href="Visalization-tab.html">Visualization</a>
+            </li>
+            <!--tab 3-->
+            <li class="nav-item">
+              <a class="nav-link" href="comparison-tab.html">Comparisons</a>
+            </li>
+            <!--tab 4-->
+            <li class="nav-item">
+              <a class="nav-link" href="Data-tab.html">Data</a>
+            </li>
+            <!--tab 5-->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >More</a
+              >
+              <div
+                class="dropdown-menu"
+                x-placement="bottom-start"
+                style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;"
+              >
+                <a class="dropdown-item" href="https://weather.com/">Current weather</a>
+                <a class="dropdown-item" href="https://www.usgs.gov/">Weather Source</a>
+                <a class="dropdown-item" href="https://www.billnye.com/the-science-guy/climate">Climate</a>
+              </div>
+            </li>
+
+            <!--search bar in navigation bar-->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              <span class="glyphicon glyphicon-search" aria-hidden="false"></span>
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <!--Home Tab Paragraph-->
+      <br />
+      <h2>Welcome!</h2>
+      <br />
+      <img
+        src="C:\Users\mmsqu\OneDrive\Documents\GitHub\Web-Visualization-Dashboard\Images\world-temperature-map.png"
+        class="media-left img-responsive"
+        style="width: 55rem; align-self: left;"
+      />
+      <p>
+        In this site we are providing a weather ananlysis that was conducted to better understand the correlation
+        between latitude and longitude and its effects on the weather and climate. Humidity, cloudiness, wind speeds,
+        and randome latitude and longitude coordinates were generated to create and unbias inspection of the
+        relationships of these fields.
+      </p>
+    </div>
+  </body>
+</html>

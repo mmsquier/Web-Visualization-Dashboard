@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstr
+    ap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+<style>
+    /* background*/
+    body {
+        margin: 0;
+        font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #919aa1;
+        text-align: left;
+        background-color: #fff;
+    }
+    /* header text style*/
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+    /*paragraph text style*/
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                  <ul class="navbar-nav mr-auto">
+            <!--tab Home-->
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+            <!--tab 1-->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Visualization</a>
+                    </li>
+            <!--tab 3-->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Comparisons</a>
+                    </li>
+            <!--tab 4-->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Data</a>
+                    </li>
+            <!--search bar in navigation bar--> 
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+            </nav>
+
+            <!--code for image1 & caption-->
+            <div class="card mb-3">
+                <img src="C:\Users\mmsqu\OneDrive\Documents\GitHub\Web-Visualization-Dashboard\h6-lat_cloud.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Latitude vs Cloud</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+        <!--code for image2 & caption-->
+        <div class="card mb-3">
+            <img src="Web-Visualization-Dashboard/h6-lat_hum.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Latitude vs Humidity</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>  
+        
+        <!--code for image3 & caption-->
+        <div class="card mb-3">
+            <img src="./Web-Visualization-Dashboard/hw6-lat_wind.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Latitude vs Wind Speed</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>    
+        </div>  
+        <!--code for image4 & caption-->
+        <div class="card mb-3">
+                <img src="Web-Visualization-Dashboard/hw6-lat_vs_temp.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Latitude vs Temperature</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>                                                    
+        <!--Home Tab Paragraph-->
+        <p>In this project a weather ananlysis was conducted to better understand the correlation between latitude and longitude and its effects on the weather and climate.</p>
+
+    </div>
+</body>
+</html>
